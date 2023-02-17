@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,42 @@
     <meta name="dеscription" content="Резюме Фомина Даниила Сергеевича">
     <meta name="keywords" content="Резюме, Java Script, Frontend, HTML, CSS, CV">
     <title>Резюме Фомин Д.С.</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-    <img src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/5d96e68298064c23fc6da74c54d02589.jpeg/s/70x70/a/177331/sc/71" width="200" alt="Фото Даниила Фомина">
+
+<body>
+
+<div class="container">
+  <div class="info">
+   <img class="ava" src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/5d96e68298064c23fc6da74c54d02589.jpeg/s/70x70/a/177331/sc/71" alt="Фото Даниила Фомина">
+   <div class="info-text">
     <h1>Даниил Фомин</h1>
-    <p>Я веду проект <strong>Faces&Laces Locals</strong>. Это платформа для продажи и поддержки локальных марок одежды и акссессуаров.</p>
+    <p>Я веду проект <strong>Faces&Laces Locals</strong>. Это платформа для продажи и поддержки локальных марок одежды и аксессуаров.</p>
     <p>Мне нравится <i>локальная уличная культура</i>, ее выражение в моде, спорте, музыке, искусстве.</p>
     <h4>Список социальных сетей</h4>
-    <a href="https://Instagram.com/phomeen42" target="_blank">Instagram</a>
+    <a href="https://t.me/danyacookie" target="_blank">Telegram</a>
     |
-    <a href="https://https://t.me/danyacookie" target="_blank">Telegram</a>
+    <a href="https://vk.com/phomeen" target="_blank">VK</a>
+    |
+    <a href="https://instagram.com/phomeen42" target="_blank">Instagram</a>
+   </div>  
+  </div>
+
+  <div class="hobbies">
     <h4>Мои Хобби</h4>
-    <ol>
+    <ol class="list">
         <li>Локальная культура</li>
         <li>Искусство</li>
         <li>Программирование</li>
         <li>Компьютерные игры</li>
         <li>Путешествия</li>
     </ol>
+  </div>
+
+  <div class="work-exp">
     <h4>Опыт работы</h4>
-    <table width="500">
-    <thead>
+    <table class="table" width="500">
+    <thead class="thead">
         <tr>
             <th>Название</th>
             <th>Должность</th>
@@ -51,28 +68,32 @@
         </tr>
     </tbody>
     </table>
+  </div>
 
-    <h2>Связаться со мной</h2>
-    <form action="">
-     <div>
+    <action="" class="form">
+        <h2>Связаться со мной</h2>
+    <div class="form-row">
+     <div class="form-group">
         <label for="name">Имя</label>
         <input type="text" id="name" placeholder="Введите Имя">
      </div>
 
-     <div>
+     <div class="form-group">
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="Введите Email">
      </div>
-
-     <div>
+    </div>
+     <div class="form-group">
         <label for="message">Сообщение</label>
-        <br>
-        <textarea id="message" cols="60" rows="7" placeholder="Введите ваше сообщение"></textarea>
+        <textarea id="message" cols="40" rows="6" placeholder="Введите ваше сообщение"></textarea>
      </div>
 
      <div>
-        <button type="submit">Отправить</button>
+        <button class="btn" type="submit">Отправить</button>
      </div>
     </form>
+</div>
+
 </body>
+
 </html>
